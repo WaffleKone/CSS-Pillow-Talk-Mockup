@@ -41,6 +41,58 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
+/* Container */
 .container {
     display:flex;
+}
+
+aside {
+    width:15%;
+}
+
+main {
+    width:85%;
+}
+
+
+/* Aside */
+li {
+    list-style: none;
+}
+ul {
+    padding: 0;
+}
+
+aside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Main */
+
+
+div[class$='row'] {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    
+}
+.row-1 > * {
+    width: 100%
+}
+
+
+.row-2 > * {
+    width: 49%;
+}
+.row-3 > * {
+    width: 32%;
+}
+
+/* footer */
+footer {
+    text-align: center;
 }
